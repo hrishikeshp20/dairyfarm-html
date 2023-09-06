@@ -69,7 +69,7 @@ if (isset($_SESSION["user"])) {
         ?>
         <form action="registration.php" method="post">
             <div class="form-group">
-                <input type="text" class="form-control" name="fullname" placeholder="Full Name:">
+                <input type="text" class="form-control" name="fullname" placeholder="Business Name:">
             </div>
             <div class="form-group">
                 <input type="emamil" class="form-control" name="email" placeholder="Email:">
